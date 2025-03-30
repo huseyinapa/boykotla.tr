@@ -1,5 +1,5 @@
 // Home.js (veya index.js) - Ana Sayfa Düzeltmesi
-import Cards from './_components/boykotlar/Cards';
+import Cards from './_components/Cards';
 import Footer from './_components/Footer';
 import ImageSlider from './_components/ImageSlider'; // Dosya adını düzelttim - Image yerine ImageSlider
 
@@ -17,7 +17,7 @@ export default function Home() {
         {/* Header section */}
 
         {/* Main content - always vertical */}
-      
+
         <div className="w-full ">
           <ImageSlider />
         </div>
